@@ -1,0 +1,99 @@
+{% extends 'core/inicio.html' %} {% load static %} {% block extrastatic %}
+{% endblock %}{% block content %}
+<div class="container">
+      <div class="row"style="text-align:center">
+        <div class="col-12">
+            <h4>Apoya a una fundación para que pueda seguir brindando un buen servicio en favor de los animales</h4>
+        </div>
+      </div><br>
+   <div class="row">
+     <div class="col-4">
+       <!-- Button trigger modal -->
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <img src="{%static 'core/img/igualdadanimal.jpg' %}" class="imgDonaciones" alt="gallery">
+       </button>
+       
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-fullscreen">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Igualdad animal</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               <div class="row">
+                 <div class="col-4"></div>
+                 <div class="col-4"><img src="{%static 'core/img/igualdadanimal.jpg' %}" class="gallery-item" alt="gallery"></div>
+                 <div class="col-4"></div>
+               </div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, possimus? Non aliquam velit harum doloribus tempore corporis quas id nemo saepe assumenda? Asperiores sapiente explicabo necessitatibus incidunt dolorem, qui aliquam.</p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-4">
+       <!-- Button trigger modal -->
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+        <img src="{%static 'core/img/fundacionjulieta.webp' %}" class="imgDonaciones" alt="gallery">
+       </button>
+       
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-fullscreen">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Fundación Julieta</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               <div class="row">
+                 <div class="col-4"></div>
+                 <div class="col-4"><img src="{%static 'core/img/fundacionjulieta.webp' %}" class="gallery-item" alt="gallery"></div>
+                 <div class="col-4"></div>
+               </div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, possimus? Non aliquam velit harum doloribus tempore corporis quas id nemo saepe assumenda? Asperiores sapiente explicabo necessitatibus incidunt dolorem, qui aliquam.</p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-4">
+       <!-- Button trigger modal -->
+       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+        <img src="{%static 'core/img/fundacionhuellaanimal.png' %}" class="imgDonaciones" alt="gallery">
+       </button>
+       
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-fullscreen">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Fundación Huella Animal</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               <div class="row">
+                 <div class="col-4"></div>
+                 <div class="col-4"><img src="{%static 'core/img/fundacionhuellaanimal.png' %}" class="gallery-item" alt="gallery"></div>
+                 <div class="col-4"></div>
+               </div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, possimus? Non aliquam velit harum doloribus tempore corporis quas id nemo saepe assumenda? Asperiores sapiente explicabo necessitatibus incidunt dolorem, qui aliquam.</p>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+  {% endblock %}
